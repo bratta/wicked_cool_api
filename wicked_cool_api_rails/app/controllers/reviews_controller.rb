@@ -20,7 +20,7 @@ class ReviewsController < ApplicationController
 
   # PUT /restaurants/:restaurant_id/reviews/:id
   def update
-    @restaurant.update(review_params)
+    @review.update(review_params)
     head :no_content
   end
 
